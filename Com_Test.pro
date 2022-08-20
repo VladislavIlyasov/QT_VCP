@@ -19,10 +19,24 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    ButtonsMain.cpp \
+    CircBuff.c \
+    ComPort.cpp \
+    IOComPort.cpp \
+    NewFile.cpp \
+    Styles.cpp \
+    circbuffqt.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    ButtonsMain.h \
+    CircBuff.h \
+    ComPort.h \
+    IOComPort.h \
+    NewFile.h \
+    Styles.h \
+    circbuffqt.h \
     mainwindow.h
 
 FORMS += \
